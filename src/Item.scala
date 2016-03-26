@@ -1,11 +1,10 @@
 /**
   * Created by Nishikant on 3/26/2016.
   */
-class Item(iname: String) {
-  var name: String = iname;
+class Item(name: String) {
 
-  def hiItem() {
-    println(name);
+  def whatsMyName() {
+    println(name)
   }
 
   override def toString = s"Item($name)"
