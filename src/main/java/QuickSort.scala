@@ -1,6 +1,7 @@
 /**
   * Created by Nishikant on 3/27/2016.
   */
+
 object QuickSort {
   def main(args: Array[String]) {
     def sort(xs: Array[Int]): Array[Int] = {
